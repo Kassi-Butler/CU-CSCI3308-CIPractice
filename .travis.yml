@@ -1,5 +1,5 @@
-before_install:
-    - make dep
-script: Makefile
+before_install: make dep
+script: make test
 language: c
 compiler: gcc
+sudo: required
