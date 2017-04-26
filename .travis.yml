@@ -1,4 +1,4 @@
-build: make
+script: Makefile
 before_install:
     - test -n $CC && unset CC
 language: c
