@@ -1,5 +1,5 @@
-before_install: make dep
-script: make test
 language: c
 compiler: gcc
+before_install: sudo apt-get install check
+script: make test
 sudo: required
