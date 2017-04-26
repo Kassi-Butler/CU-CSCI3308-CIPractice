@@ -1,5 +1,6 @@
-script: Makefile
+script: make test
 before_install:
     - test -n $CC && unset CC
+    - make dep
 language: c
 compiler: gcc
